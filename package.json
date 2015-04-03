@@ -1,0 +1,38 @@
+{
+  "name": "semantic-blocks",
+  "version": "0.0.0",
+  "description": "Some semantics BEM blocks",
+  "main": "index.js",
+  "scripts": {
+    "jshint": "./node_modules/.bin/jshint .",
+    "jscs": "./node_modules/.bin/jscs .",
+    "test": "npm run jshint && npm run jscs"
+  },
+  "devDependencies": {
+    "bh": "^3.3.0",
+    "enb": "^0.15.0",
+    "enb-bem-tmpl-specs": "^0.11.0",
+    "enb-bh": "^0.4.1",
+    "enb-magic-factory": "^0.4.4",
+    "jscs": "^1.13.1",
+    "jshint": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isqua/semantic-blocks.git"
+  },
+  "keywords": [
+    "BEM",
+    "schema",
+    "microformats",
+    "templates",
+    "semantic",
+    "semantics"
+  ],
+  "author": "isqua <isqua@isqua.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isqua/semantic-blocks/issues"
+  },
+  "homepage": "https://github.com/isqua/semantic-blocks"
+}

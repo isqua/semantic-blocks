@@ -6,7 +6,9 @@
   "scripts": {
     "jshint": "./node_modules/.bin/jshint .",
     "jscs": "./node_modules/.bin/jscs .",
-    "test": "npm run jshint && npm run jscs"
+    "specs": "./node_modules/.bin/enb make tmpl-specs",
+    "pretest": "npm run jshint && npm run jscs",
+    "test": "npm run specs"
   },
   "devDependencies": {
     "bh": "^3.3.0",

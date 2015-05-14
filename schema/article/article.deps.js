@@ -11,6 +11,7 @@
         tech: 'tmpl-spec.js',
         shouldDeps: {
             elems: [
+                'author',
                 'body',
                 'section'
             ]

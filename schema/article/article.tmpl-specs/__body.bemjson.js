@@ -1,0 +1,4 @@
+({
+    block: 'article',
+    elem: 'body'
+});

@@ -17,4 +17,4 @@ node_modules
 
 # Enb files
 .enb/tmp/
-*.tmpl-specs/
+/*.tmpl-specs/

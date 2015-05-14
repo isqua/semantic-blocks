@@ -13,6 +13,7 @@
             elems: [
                 'author',
                 'body',
+                'comment',
                 'section'
             ]
         }

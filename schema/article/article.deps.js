@@ -11,7 +11,8 @@
         tech: 'tmpl-spec.js',
         shouldDeps: {
             elems: [
-                'body'
+                'body',
+                'section'
             ]
         }
     }

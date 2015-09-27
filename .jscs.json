@@ -1,115 +1,18 @@
 {
-  "disallowImplicitTypeConversion": [ "numeric", "boolean", "binary", "string" ],
-  "disallowKeywordsOnNewLine": [ "else" ],
-  "disallowMixedSpacesAndTabs": true,
-  "disallowMultipleLineBreaks": true,
-  "disallowMultipleLineStrings": true,
-  "disallowNewlineBeforeBlockStatements": true,
-  "disallowOperatorBeforeLineBreak": [ "+", "-", "*", "/", "." ],
-  "disallowPaddingNewlinesInBlocks": true,
-  "disallowQuotedKeysInObjects": "allButReserved",
-  "disallowSpaceAfterObjectKeys": true,
-  "disallowSpaceAfterPrefixUnaryOperators": [ "++", "--", "+", "-" ],
-  "disallowSpaceBeforePostfixUnaryOperators": true,
-  "disallowSpacesInCallExpression": true,
-  "disallowSpacesInFunctionExpression": {
-    "beforeOpeningRoundBrace": true
-  },
-  "disallowSpacesInNamedFunctionExpression": {
-    "beforeOpeningRoundBrace": true
-  },
-  "disallowSpacesInsideParentheses": true,
-  "disallowTrailingComma": true,
-  "disallowTrailingWhitespace": true,
-  "disallowYodaConditions": true,
-  "requireBlocksOnNewline": true,
-  "requireCapitalizedConstructors": true,
-  "requireCommaBeforeLineBreak": true,
-  "requireCurlyBraces": [
-    "if",
-    "else",
-    "for",
-    "while",
-    "do",
-    "try",
-    "catch"
-  ],
-  "requireDotNotation": true,
-  "requireLineBreakAfterVariableAssignment": true,
-  "requireLineFeedAtFileEnd": true,
-  "requirePaddingNewlinesBeforeKeywords": [
-    "do",
-    "for",
-    "if",
-    "switch",
-    "try",
-    "void",
-    "while",
-    "with",
-    "return"
-  ],
-  "requireSpaceAfterBinaryOperators": true,
-  "requireSpaceAfterKeywords": [
-    "do",
-    "for",
-    "if",
-    "else",
-    "switch",
-    "case",
-    "try",
-    "catch",
-    "void",
-    "while",
-    "with",
-    "return",
-    "typeof"
-  ],
-  "requireSpaceAfterLineComment": {
-    "allExcept": [ "#", "=" ]
-  },
-  "requireSpaceAfterPrefixUnaryOperators": [ "~", "!" ],
-  "requireSpaceBeforeBinaryOperators": [
-    "=",
-    "+",
-    "-",
-    "/",
-    "*",
-    "==",
-    "===",
-    "!=",
-    "!=="
-  ],
-  "requireSpaceBeforeBlockStatements": true,
-  "requireSpaceBeforeKeywords": [
-    "else",
-    "while",
-    "catch"
-  ],
-  "requireSpaceBeforeObjectValues": true,
-  "requireSpaceBetweenArguments": true,
-  "requireSpacesInAnonymousFunctionExpression": {
-    "beforeOpeningCurlyBrace": true
-  },
-  "requireSpacesInForStatement": true,
-  "requireSpacesInFunctionDeclaration": {
-    "beforeOpeningCurlyBrace": true
-  },
-  "requireSpacesInFunctionExpression": {
-    "beforeOpeningCurlyBrace": true
-  },
-  "requireSpacesInNamedFunctionExpression": {
-    "beforeOpeningCurlyBrace": true
-  },
-  "requireSpacesInsideObjectBrackets": "allButNested",
-  "validateIndentation": 4,
-  "validateLineBreaks": "LF",
-  "validateParameterSeparator": ", ",
+  "preset": "yandex",
 
+  "disallowSpacesInsideObjectBrackets": false,
+  "requireSpacesInsideObjectBrackets": "allButNested",
+
+  "disallowSpacesInsideArrayBrackets": false,
+  "requireSpacesInsideArrayBrackets": "allButNested",
+
+  "disallowMultipleVarDecl": false,
+  "requireMultipleVarDecl": true,
 
   "excludeFiles": [
     "node_modules/**",
     ".enb/tmp/**",
     "*.tmpl-specs"
   ]
-
 }

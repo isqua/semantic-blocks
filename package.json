@@ -4,9 +4,9 @@
   "description": "Easily add Schema.org to your BEM-project",
   "main": "index.js",
   "scripts": {
-    "jshint": "./node_modules/.bin/jshint .",
-    "jscs": "./node_modules/.bin/jscs .",
-    "specs": "./node_modules/.bin/enb make tmpl-specs",
+    "jshint": "jshint .",
+    "jscs": "jscs .",
+    "specs": "enb make tmpl-specs",
     "pretest": "npm run jshint && npm run jscs",
     "test": "npm run specs"
   },
